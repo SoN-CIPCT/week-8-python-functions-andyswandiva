@@ -1,0 +1,8 @@
+def sandwich_ingredients(order_name, *sandwich_toppings):
+    print(f"\nSandwich order for {order_name.title()} with:")
+    for sandwich_topping in sandwich_toppings:
+        print(f"- {sandwich_topping.title()}")
+    print("Is Complete.")
+
+sandwich_ingredients('chris','pastrami','lettuce','tomato','horseradish')
+sandwich_ingredients('sally mae','ham','turkey','chicken cutlet','salmon','swiss','1,000 island dressing','lettuce','pickle','onion','special sauce','cranberries')
